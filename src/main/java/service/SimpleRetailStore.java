@@ -4,8 +4,8 @@ import model.Product;
 
 public class SimpleRetailStore implements IStore {
 
-    private double totalBuyBalance;
-    private double totalSellBalance;
+    private double totalBuyBalance = 0;
+    private double totalSellBalance = 0;
 
 
     public void buy(Product product) {
