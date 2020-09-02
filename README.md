@@ -57,7 +57,7 @@ and displays suitable messages
  4. Create another implementations of IStore named InventoryRetailStore is a
     store that has detailed Inventory. The event buy adds to Inventory and sell removes from Inventory
     
-Fields: List<Product>
+Fields: List\<Product>
 
 Methods: getInventory(), reset()
 
